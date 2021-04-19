@@ -1,2 +1,3 @@
 # DevOps-with-Docker
-Exercises solutions for DevOps with Docker 2021 using Docker and docker-compose
+Repository for solutions to the DevOps with Docker 2021 course (Helsinki University)
+These solutions use Docker and docker-compose.
