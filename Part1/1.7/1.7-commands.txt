@@ -1,5 +1,6 @@
 Script started on 2021-04-21 01:17:56-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="164" LINES="24"]
-]0;augustin@augustin-HP-ENVY-Notebook: ~/projects/DevOpsDocker2021/1.7[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~/projects/DevOpsDocker2021/1.7[00m$ docker run web-server
+augustin@augustin-HP-ENVY-Notebook: ~/projects/DevOpsDocker2021/1.7
+augustin@augustin-HP-ENVY-Notebook:~/projects/DevOpsDocker2021/1.7$ docker run web-server
 [GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
 
 [GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
@@ -8,7 +9,8 @@ Script started on 2021-04-21 01:17:56-04:00 [TERM="xterm-256color" TTY="/dev/pts
 
 [GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
 [GIN-debug] Listening and serving HTTP on :8080
-^C]0;augustin@augustin-HP-ENVY-Notebook: ~/projects/DevOpsDocker2021/1.7[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~/projects/DevOpsDocker2021/1.7[00m$ exit
+augustin@augustin-HP-ENVY-Notebook: ~/projects/DevOpsDocker2021/1.7
+augustin@augustin-HP-ENVY-Notebook[00m:[01;34m~/projects/DevOpsDocker2021/1.7$ exit
 exit
 
 Script done on 2021-04-21 01:19:37-04:00 [COMMAND_EXIT_CODE="2"]
