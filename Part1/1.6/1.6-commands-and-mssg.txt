@@ -1,19 +1,89 @@
 Script started on 2021-04-20 21:11:06-04:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="158" LINES="24"]
-]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -t [K[Kit devopsdockeruh/pull_exc[Kercise
+augustin@augustin-HP-ENVY-Notebook: ~
+augustin@augustin-HP-ENVY-Notebook:~ $ docker run -t devopsdockeruh/pull_excercise
 Unable to find image 'devopsdockeruh/pull_exercise:latest' locally
 latest: Pulling from devopsdockeruh/pull_exercise
-
-[1A[2K8e402f1a9c57: Pulling fs layer [1B
-[1A[2K5e2195587d10: Pulling fs layer [1B
-[1A[2K6f595b2fc66d: Pulling fs layer [1B
-[1A[2K165f32bf4e94: Pulling fs layer [1B
-[1A[2K67c4f504c224: Pulling fs layer [1B[2A[2K165f32bf4e94: Waiting [2B[1A[2K67c4f504c224: Waiting [1B[5A[2K8e402f1a9c57: Downloading [>                                                  ]  27.76kB/2.755MB[5B[4A[2K5e2195587d10: Downloading [>                                                  ]  216.4kB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [=======>                                           ]  408.5kB/2.755MB[5B[4A[2K5e2195587d10: Downloading [=>                                                 ]  670.1kB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [===============>                                   ]  829.8kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [>                                                  ]  14.08kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [==============================>                    ]  1.653MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [===>                                               ]  1.358MB/21.6MB[4B[3A[2K6f595b2fc66d: Downloading [=======>                                           ]  206.8kB/1.332MB[3B[5A[2K8e402f1a9c57: Downloading [========================================>          ]  2.243MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [====>                                              ]  1.813MB/21.6MB[4B[5A[2K8e402f1a9c57: Verifying Checksum [5B[5A[2K8e402f1a9c57: Download complete [5B[5A[2K8e402f1a9c57: Extracting [>                                                  ]  32.77kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [===============>                                   ]  406.6kB/1.332MB[3B[4A[2K5e2195587d10: Downloading [=====>                                             ]  2.497MB/21.6MB[4B[5A[2K8e402f1a9c57: Extracting [===============================================>   ]  2.621MB/2.755MB[5B[5A[2K8e402f1a9c57: Extracting [==================================================>]  2.755MB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [==============================>                    ]  816.2kB/1.332MB[3B[5A[2K8e402f1a9c57: Pull complete [5B[3A[2K6f595b2fc66d: Verifying Checksum [3B[3A[2K6f595b2fc66d: Download complete [3B[4A[2K5e2195587d10: Downloading [=======>                                           ]  3.185MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=========>                                         ]  4.098MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===========>                                       ]  5.016MB/21.6MB[4B[2A[2K165f32bf4e94: Downloading [==================================================>]     108B/108B[2B[2A[2K165f32bf4e94: Download complete [2B[4A[2K5e2195587d10: Downloading [=============>                                     ]  5.921MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===============>                                   ]  6.835MB/21.6MB[4B[1A[2K67c4f504c224: Downloading [==>                                                ]     437B/9.267kB[1B[1A[2K67c4f504c224: Download complete [1B[4A[2K5e2195587d10: Downloading [=================>                                 ]  7.744MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [====================>                              ]  8.641MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [======================>                            ]  9.784MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [========================>                          ]   10.7MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===========================>                       ]  12.06MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===============================>                   ]  13.43MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==================================>                ]   14.8MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [=====================================>             ]  16.14MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [========================================>          ]  17.51MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [===========================================>       ]  18.89MB/21.6MB[4B[4A[2K5e2195587d10: Downloading [==============================================>    ]  20.24MB/21.6MB[4B[4A[2K5e2195587d10: Verifying Checksum [4B[4A[2K5e2195587d10: Download complete [4B[4A[2K5e2195587d10: Extracting [>                                                  ]  229.4kB/21.6MB[4B[4A[2K5e2195587d10: Extracting [=======>                                           ]  3.211MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [=====================>                             ]  9.175MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [=================================>                 ]  14.45MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [======================================>            ]  16.52MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [==========================================>        ]  18.35MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [============================================>      ]  19.27MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [===============================================>   ]  20.64MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [==================================================>]   21.6MB/21.6MB[4B[4A[2K5e2195587d10: Pull complete [4B[3A[2K6f595b2fc66d: Extracting [=>                                                 ]  32.77kB/1.332MB[3B[3A[2K6f595b2fc66d: Extracting [===================================>               ]  950.3kB/1.332MB[3B[3A[2K6f595b2fc66d: Extracting [==================================================>]  1.332MB/1.332MB[3B[3A[2K6f595b2fc66d: Extracting [==================================================>]  1.332MB/1.332MB[3B[3A[2K6f595b2fc66d: Pull complete [3B[2A[2K165f32bf4e94: Extracting [==================================================>]     108B/108B[2B[2A[2K165f32bf4e94: Extracting [==================================================>]     108B/108B[2B[2A[2K165f32bf4e94: Pull complete [2B[1A[2K67c4f504c224: Extracting [==================================================>]  9.267kB/9.267kB[1B[1A[2K67c4f504c224: Extracting [==================================================>]  9.267kB/9.267kB[1B[1A[2K67c4f504c224: Pull complete [1BDigest: sha256:7c0635934049afb9ca0481fb6a58b16100f990a0d62c8665b9cfb5c9ada8a99f
+8e402f1a9c57: Pulling fs layer
+5e2195587d10: Pulling fs layer 
+6f595b2fc66d: Pulling fs layer
+165f32bf4e94: Pulling fs layer
+67c4f504c224: Pulling fs layer 
+165f32bf4e94: Waiting
+67c4f504c224: Waiting 
+8e402f1a9c57: Downloading [>                                                  ]  27.76kB/2.755MB
+5e2195587d10: Downloading [>                                                  ]  216.4kB/21.6MB
+8e402f1a9c57: Downloading [=======>                                           ]  408.5kB/2.755MB
+5e2195587d10: Downloading [=>                                                 ]  670.1kB/21.6MB
+8e402f1a9c57: Downloading [===============>                                   ]  829.8kB/2.755MB
+6f595b2fc66d: Downloading [>                                                  ]  14.08kB/1.332MB
+8e402f1a9c57: Downloading [==============================>                    ]  1.653MB/2.755MB
+5e2195587d10: Downloading [===>                                               ]  1.358MB/21.6MB
+6f595b2fc66d: Downloading [=======>                                           ]  206.8kB/1.332MB
+8e402f1a9c57: Downloading [========================================>          ]  2.243MB/2.755MB
+5e2195587d10: Downloading [====>                                              ]  1.813MB/21.6MB
+8e402f1a9c57: Verifying Checksum 
+8e402f1a9c57: Download complete 
+8e402f1a9c57: Extracting [>                                                  ]  32.77kB/2.755MB
+6f595b2fc66d: Downloading [===============>                                   ]  406.6kB/1.332MB
+5e2195587d10: Downloading [=====>                                             ]  2.497MB/21.6MB
+8e402f1a9c57: Extracting [===============================================>   ]  2.621MB/2.755MB
+8e402f1a9c57: Extracting [==================================================>]  2.755MB/2.755MB
+6f595b2fc66d: Downloading [==============================>                    ]  816.2kB/1.332MB
+8e402f1a9c57: Pull complete 
+6f595b2fc66d: Verifying Checksum 
+6f595b2fc66d: Download complete 
+5e2195587d10: Downloading [=======>                                           ]  3.185MB/21.6MB
+5e2195587d10: Downloading [=========>                                         ]  4.098MB/21.6MB
+5e2195587d10: Downloading [===========>                                       ]  5.016MB/21.6MB
+165f32bf4e94: Downloading [==================================================>]     108B/108B
+165f32bf4e94: Download complete
+5e2195587d10: Downloading [=============>                                     ]  5.921MB/21.6MB
+5e2195587d10: Downloading [===============>                                   ]  6.835MB/21.6MB
+67c4f504c224: Downloading [==>                                                ]     437B/9.267kB
+67c4f504c224: Download complete 
+5e2195587d10: Downloading [=================>                                 ]  7.744MB/21.6MB
+5e2195587d10: Downloading [====================>                              ]  8.641MB/21.6MB
+5e2195587d10: Downloading [======================>                            ]  9.784MB/21.6MB
+5e2195587d10: Downloading [========================>                          ]   10.7MB/21.6MB
+5e2195587d10: Downloading [===========================>                       ]  12.06MB/21.6MB
+5e2195587d10: Downloading [===============================>                   ]  13.43MB/21.6MB
+5e2195587d10: Downloading [==================================>                ]   14.8MB/21.6MB
+5e2195587d10: Downloading [=====================================>             ]  16.14MB/21.6MB
+5e2195587d10: Downloading [========================================>          ]  17.51MB/21.6MB
+5e2195587d10: Downloading [===========================================>       ]  18.89MB/21.6MB
+5e2195587d10: Downloading [==============================================>    ]  20.24MB/21.6MB
+5e2195587d10: Verifying Checksum 
+5e2195587d10: Download complete 
+5e2195587d10: Extracting [>                                                  ]  229.4kB/21.6MB
+5e2195587d10: Extracting [=======>                                           ]  3.211MB/21.6MB
+5e2195587d10: Extracting [=====================>                             ]  9.175MB/21.6MB
+5e2195587d10: Extracting [=================================>                 ]  14.45MB/21.6MB
+5e2195587d10: Extracting [======================================>            ]  16.52MB/21.6MB
+5e2195587d10: Extracting [==========================================>        ]  18.35MB/21.6MB
+5e2195587d10: Extracting [============================================>      ]  19.27MB/21.6MB
+5e2195587d10: Extracting [===============================================>   ]  20.64MB/21.6MB
+5e2195587d10: Extracting [==================================================>]   21.6MB/21.6MB
+5e2195587d10: Pull complete 
+6f595b2fc66d: Extracting [=>                                                 ]  32.77kB/1.332MB
+6f595b2fc66d: Extracting [===================================>               ]  950.3kB/1.332MB
+6f595b2fc66d: Extracting [==================================================>]  1.332MB/1.332MB
+6f595b2fc66d: Extracting [==================================================>]  1.332MB/1.332MB
+6f595b2fc66d: Pull complete 
+165f32bf4e94: Extracting [==================================================>]     108B/108B
+165f32bf4e94: Extracting [==================================================>]     108B/108B
+165f32bf4e94: Pull complete 
+67c4f504c224: Extracting [==================================================>]  9.267kB/9.267kB
+67c4f504c224: Extracting [==================================================>]  9.267kB/9.267kB
+67c4f504c224: Pull complete 
+Digest: sha256:7c0635934049afb9ca0481fb6a58b16100f990a0d62c8665b9cfb5c9ada8a99f
 Status: Downloaded newer image for devopsdockeruh/pull_exercise:latest
-[1G[0JGive me the password: [23Gbasics
+Give me the password: basics
+
 You found the correct password. Secret message is:
 "This is the secret message"
 
-]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ exit
+augustin@augustin-HP-ENVY-Notebook: ~
+augustin@augustin-HP-ENVY-Notebook:~ $ exit
 exit
 
 Script done on 2021-04-20 21:12:15-04:00 [COMMAND_EXIT_CODE="0"]
