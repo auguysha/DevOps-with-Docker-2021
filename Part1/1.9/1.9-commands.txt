@@ -1,0 +1,51 @@
+Script started on 2021-04-21 15:11:05-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="136" LINES="24"]
+]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -v "$(pwd)/text.log:/usr/src/app/text.log" -it devopsdockeruh/simple-web-service[1Pdevopsdockeruh/simple-web-service[1Pdevopsdockeruh/simple-web-service[1Pdevopsdockeruh/simple-web-service[1Pdevopsdockeruh/simple-web-service-devopsdockeruh/simple-web-serviceidevopsdockeruh/simple-web-servicetdevopsdockeruh/simple-web-service devopsdockeruh/simple-web-service
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+CWrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ cat text.log 
+2021-04-21 19:07:32 +0000 UTC
+2021-04-21 19:07:34 +0000 UTC
+2021-04-21 19:07:36 +0000 UTC
+2021-04-21 19:07:38 +0000 UTC
+2021-04-21 19:07:40 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-04-21 19:07:42 +0000 UTC
+2021-04-21 19:07:44 +0000 UTC
+2021-04-21 19:07:46 +0000 UTC
+2021-04-21 19:07:48 +0000 UTC
+2021-04-21 19:07:50 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-04-21 19:07:52 +0000 UTC
+2021-04-21 19:08:33 +0000 UTC
+2021-04-21 19:08:35 +0000 UTC
+2021-04-21 19:08:37 +0000 UTC
+2021-04-21 19:08:39 +0000 UTC
+2021-04-21 19:08:41 +0000 UTC
+2021-04-21 19:08:54 +0000 UTC
+2021-04-21 19:08:56 +0000 UTC
+2021-04-21 19:08:58 +0000 UTC
+2021-04-21 19:09:00 +0000 UTC
+2021-04-21 19:09:02 +0000 UTC
+2021-04-21 19:12:00 +0000 UTC
+2021-04-21 19:12:02 +0000 UTC
+2021-04-21 19:12:04 +0000 UTC
+2021-04-21 19:12:06 +0000 UTC
+2021-04-21 19:12:08 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-04-21 19:12:10 +0000 UTC
+2021-04-21 19:12:12 +0000 UTC
+2021-04-21 19:12:14 +0000 UTC
+2021-04-21 19:12:16 +0000 UTC
+]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2021-04-21 15:12:43-04:00 [COMMAND_EXIT_CODE="0"]

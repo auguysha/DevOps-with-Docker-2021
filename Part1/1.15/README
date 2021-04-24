@@ -1,0 +1,12 @@
+                Greeting-App
+                ============
+How to start
+++++++++++++
+
+Download the application image from https://hub.docker.com/r/auguysha11/greeting-app by either: 
+
+running docker pull auguysha11/greeting-app && docker run -p ????:8080 auguysha11/greeting-app or 
+
+docker run -p ????:8080 auguysha11/greeting-app. Replace the ???? with port a number of your choice.
+
+When you start the container and navigate to http://localhost:8080 you should get a “Welcome to DevOps with Docker 2021!” as response.

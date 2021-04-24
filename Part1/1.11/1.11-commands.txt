@@ -1,0 +1,31 @@
+Script started on 2021-04-21 22:39:23-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="169" LINES="21"]
+]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project[K]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ docker run -p 5000:8080 spring-project
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.3.RELEASE)
+
+2021-04-22 02:39:52.506  INFO 1 --- [           main] c.d.dockerexample.DemoApplication        : Starting DemoApplication v1.1.3 on 95546fbc1b1a with PID 1 (/usr/src/app/target/docker-example-1.1.3.jar started by root in /usr/src/app)
+2021-04-22 02:39:52.518  INFO 1 --- [           main] c.d.dockerexample.DemoApplication        : No active profile set, falling back to default profiles: default
+2021-04-22 02:39:55.211  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-22 02:39:55.280  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-22 02:39:55.280  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-04-22 02:39:55.314  INFO 1 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2021-04-22 02:39:55.454  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-22 02:39:55.454  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2799 ms
+2021-04-22 02:39:55.932  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 02:39:56.267  INFO 1 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-22 02:39:56.628  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-22 02:39:56.646  INFO 1 --- [           main] c.d.dockerexample.DemoApplication        : Started DemoApplication in 5.018 seconds (JVM running for 5.709)
+2021-04-22 02:40:08.852  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-22 02:40:08.853  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-22 02:40:08.864  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+^C2021-04-22 02:40:52.682  INFO 1 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+]0;augustin@augustin-HP-ENVY-Notebook: ~[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2021-04-21 22:41:04-04:00 [COMMAND_EXIT_CODE="130"]
