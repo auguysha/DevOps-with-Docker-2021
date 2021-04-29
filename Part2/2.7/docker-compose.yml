@@ -1,0 +1,31 @@
+
+version: '3'
+
+services:
+        frontend:
+                image: machinelearning_frontend
+                build: ./ml-kurkkumopo-frontend
+                container_name: machlearn_frontendservice
+                ports:
+                        - 3000:3000
+        backend:
+                image: machinelearning_backend
+                build: ./ml-kurkkumopo-backend
+                container_name: machlearn_backendservice
+                ports:
+                        - 5000:5000
+                volumes:
+                        - model:/src/model
+        training:
+                image: machinelearning_training
+                build: ./ml-kurkkumopo-training
+                container_name: training_service
+                volumes:
+                        - data:/src/data
+                        - imgs:/src/imgs
+                        - model:/src/model
+
+volumes:
+        data:
+        imgs:
+        model:

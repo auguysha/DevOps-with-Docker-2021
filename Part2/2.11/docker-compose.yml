@@ -1,0 +1,12 @@
+
+version: '3'
+
+services:
+        greeting-app:
+                container_name: greeting-app
+                build:
+                        context: ./greeting
+                        dockerfile: Dockerfile-greetingApp
+                ports:
+                        - 8080:8080
+

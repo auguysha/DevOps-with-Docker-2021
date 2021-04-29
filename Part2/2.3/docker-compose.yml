@@ -1,0 +1,20 @@
+
+version: '3'
+
+services:
+        frontend:
+                build:
+                        context: ./example-frontend
+                        dockerfile: Dockerfile-2.3_frontend
+                container_name: frontend-service
+                ports:
+                        - 5000:5000
+        backend:
+                build:
+                        context: ./example-backend
+                        dockerfile: Dockerfile-2.3_backend
+                container_name: backend-service
+                ports:
+                        - 8080:8080 
+
+

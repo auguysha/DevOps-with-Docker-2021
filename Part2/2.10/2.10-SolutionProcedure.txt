@@ -1,0 +1,5 @@
+
+#
+In order to make sure that every button for the nginx exercise works, I update the backend service Dockerfile by
+changing the environment variable ENV REQUEST_ORIGIN=http://localhost:5000 to ENV REQUEST_ORIGIN=http://localhost
+This change made all buttons work as reflected in the provided screenshot.

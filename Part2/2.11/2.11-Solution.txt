@@ -1,0 +1,3 @@
+#
+For this exercise we just created a supporting docker-compose.yml file for a simple greeting application.
+The Dockerfile is also provided to illustrate what the app does.
