@@ -1,9 +1,11 @@
 Script started on 2021-04-21 03:03:53-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="164" LINES="24"]
-]0;augustin@augustin-HP-ENVY-Notebook: ~/projects/DevOpsDocker2021/1.8[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~/projects/DevOpsDocker2021/1.8[00m$ docker images
+augustin@augustin-HP-ENVY-Notebook: ~/projects/DevOpsDocker2021/1.8
+augustin@augustin-HP-ENVY-Notebook:~/projects/DevOpsDocker2021/1.8 $ docker images
 REPOSITORY   TAG       IMAGE ID       CREATED              SIZE
 curler       latest    42f8022102e9   About a minute ago   114MB
 ubuntu       18.04     3339fde08fc3   3 weeks ago          63.3MB
-]0;augustin@augustin-HP-ENVY-Notebook: ~/projects/DevOpsDocker2021/1.8[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~/projects/DevOpsDocker2021/1.8[00m$ docker run -it curler
+augustin@augustin-HP-ENVY-Notebook: ~/projects/DevOpsDocker2021/1.8
+augustin@augustin-HP-ENVY-Notebook:~/projects/DevOpsDocker2021/1.8$ docker run -it curler
 Input website:
 helsinki.fi
 Searching..
@@ -14,7 +16,8 @@ Searching..
 <h1>Moved Permanently</h1>
 <p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
 </body></html>
-]0;augustin@augustin-HP-ENVY-Notebook: ~/projects/DevOpsDocker2021/1.8[01;32maugustin@augustin-HP-ENVY-Notebook[00m:[01;34m~/projects/DevOpsDocker2021/1.8[00m$ exit
+augustin@augustin-HP-ENVY-Notebook: ~/projects/DevOpsDocker2021/1.8
+augustin@augustin-HP-ENVY-Notebook:~/projects/DevOpsDocker2021/1.8$ exit
 exit
 
 Script done on 2021-04-21 03:05:54-04:00 [COMMAND_EXIT_CODE="0"]
